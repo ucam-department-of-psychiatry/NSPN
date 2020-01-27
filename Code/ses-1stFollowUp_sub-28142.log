@@ -1,0 +1,1526 @@
+mkdir: cannot create directory ‘/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//ProcessingMyeSurfaces’: No such file or directory
+mkdir: cannot create directory ‘/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms’: No such file or directory
+tmp /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372
+Log file is /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.dat.log
+Tue Aug 20 12:23:59 BST 2019
+
+setenv SUBJECTS_DIR /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces
+cd /lustre/archive/q10021/NSPN/Code
+/applications/freesurfer/freesurfer_6_hcp_patch/bin/bbregister --s sub-28142 --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta --init-fsl --t1
+
+$Id: bbregister,v 1.75 2016/05/10 20:02:28 greve Exp $
+Linux wbic-csm-6 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+FREESURFER_HOME /applications/freesurfer/freesurfer_6_hcp_patch
+mri_convert /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii
+mri_convert.bin /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii...
+fslregister --s sub-28142 --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --niters 1 --maxangle 90 --tmp /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister --dof 6 --fsvol brainmask.mgz --nobetmov
+
+Log file is /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat.fslregister.log
+
+Tue Aug 20 12:24:01 BST 2019
+--s sub-28142 --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --niters 1 --maxangle 90 --tmp /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister --dof 6 --fsvol brainmask.mgz --nobetmov
+$Id: fslregister,v 1.40 2016/02/12 21:43:15 zkaufman Exp $
+wbic-csm-6
+Linux wbic-csm-6 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+nIters 1
+--------------------------------------
+/lustre/archive/q10021/NSPN/Code
+mri_convert /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/mri/brainmask.mgz /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/refvol.fslregister.nii
+mri_convert.bin /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/mri/brainmask.mgz /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/refvol.fslregister.nii 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/mri/brainmask.mgz...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/refvol.fslregister.nii...
+--------------------------------------
+/lustre/archive/q10021/NSPN/Code
+mri_convert /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii --frame 0
+mri_convert.bin /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii --frame 0 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+keeping frame 0
+writing to /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii...
+Mov determinant is -1
+/lustre/archive/q10021/NSPN/Code
+tkregister2_cmdl --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/reg0.16490.dat --regheader --fslregout /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat.fsl.mat0 --s sub-28142 --noedit
+tkregister_tcl /applications/freesurfer/freesurfer_6_hcp_patch/tktools/tkregister2.tcl
+INFO: no target volume specified, assuming FreeSurfer orig volume.
+target  volume orig
+movable volume /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii
+reg file       /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/reg0.16490.dat
+LoadVol        0
+ZeroCRAS       0
+$Id: tkregister2.c,v 1.132.2.1 2016/08/02 21:17:29 greve Exp $
+Diagnostic Level -1
+INFO: loading target /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/mri/orig.mgz
+Ttarg: --------------------
+-1.00000   0.00000   0.00000   128.00000;
+ 0.00000   0.00000   1.00000  -128.00000;
+ 0.00000  -1.00000   0.00000   128.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+INFO: loading movable /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii
+Tmov: --------------------
+-1.00000   0.00000   0.00000   128.00000;
+ 0.00000   0.00000   1.00000  -128.00000;
+ 0.00000  -1.00000   0.00000   128.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+mkheaderreg = 1, float2int = 0
+Computing reg from header (and possibly input matrix)
+---- Input registration matrix (computed) --------
+ 1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+---------------------------------------
+---- Input registration matrix --------
+ 1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant 1
+subject = sub-28142
+RegMat ---------------------------
+ 1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+FSLOUTPUTTYPE NIFTI 
+tkreg2FSL: mov det = -1, ref det = -1
+Tue Aug 20 12:24:03 BST 2019
+/lustre/archive/q10021/NSPN/Code
+flirt.fsl -ref /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/refvol.fslregister.nii -in /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii -bins 256 -cost corratio -dof 6 -searchrx -90 90 -searchry -90 90 -searchrz -90 90 -verbose 0 -omat /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/fslmat0.trans.mat -schedule /applications/freesurfer/freesurfer_6_hcp_patch/bin/fsl.5.0.2.xyztrans.sch -init /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat.fsl.mat0
+Tue Aug 20 12:25:39 BST 2019
+/lustre/archive/q10021/NSPN/Code
+flirt.fsl -ref /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/refvol.fslregister.nii -in /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/movvol.fslregister.nii -bins 256 -cost corratio -dof 6 -searchrx -90 90 -searchry -90 90 -searchrz -90 90 -verbose 0 -omat /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat.fsl.mat -init /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/fslregister/fslmat0.trans.mat -schedule /applications/freesurfer/freesurfer_6_hcp_patch/bin/flirt.newdefault.20080811.sch
+tkregister2_cmdl --s sub-28142 --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --fslreg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat.fsl.mat --noedit
+tkregister_tcl /applications/freesurfer/freesurfer_6_hcp_patch/tktools/tkregister2.tcl
+---- FSL registration matrix --------
+ 1.00000   0.00000   0.00000   0.47658;
+ 0.00000   1.00000   0.00000   0.48343;
+ 0.00000   0.00000   1.00000  -0.48414;
+ 0.00000   0.00000   0.00000   1.00000;
+---------------------------------------
+INFO: no target volume specified, assuming FreeSurfer orig volume.
+target  volume orig
+movable volume /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii
+reg file       /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat
+LoadVol        0
+ZeroCRAS       0
+$Id: tkregister2.c,v 1.132.2.1 2016/08/02 21:17:29 greve Exp $
+Diagnostic Level -1
+INFO: loading target /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/mri/orig.mgz
+Ttarg: --------------------
+-1.00000   0.00000   0.00000   128.00000;
+ 0.00000   0.00000   1.00000  -128.00000;
+ 0.00000  -1.00000   0.00000   128.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+INFO: loading movable /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii
+Tmov: --------------------
+-1.00000   0.00000   0.00000   128.00000;
+ 0.00000   0.00000   1.00000  -128.00000;
+ 0.00000  -1.00000   0.00000   128.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+mkheaderreg = 0, float2int = 0
+FSLOUTPUTTYPE NIFTI 
+fsl2TkReg: mov det = -1, ref det = -1
+---- Input registration matrix (computed) --------
+ 1.00000   0.00000   0.00000   0.47658;
+ 0.00000   1.00000   0.00000   0.48414;
+ 0.00000   0.00000   1.00000   0.48343;
+ 0.00000   0.00000   0.00000   1.00000;
+---------------------------------------
+---- Input registration matrix --------
+ 1.00000   0.00000   0.00000   0.47658;
+ 0.00000   1.00000   0.00000   0.48414;
+ 0.00000   0.00000   1.00000   0.48343;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant 1
+subject = sub-28142
+RegMat ---------------------------
+ 1.00000   0.00000   0.00000   0.47658;
+ 0.00000   1.00000   0.00000   0.48414;
+ 0.00000   0.00000   1.00000   0.48343;
+ 0.00000   0.00000   0.00000   1.00000;
+
+WARNING: possible left-right reversal
+
+ 
+Started at Tue Aug 20 12:24:01 BST 2019 
+Ended   at Tue Aug 20 12:27:17 BST 2019
+ 
+fslregister Done
+ 
+To check results, run:
+tkregister2 --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --surf orig
+ 
+mri_segreg --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --init-reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --out-reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces
+cd /lustre/archive/q10021/NSPN/Code
+mri_segreg --mov /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii --init-reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat --out-reg /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5 
+sysname  Linux
+hostname wbic-csm-6
+machine  x86_64
+user     rb643
+movvol /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/template.nii
+regfile /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/reg.init.dat
+subject sub-28142
+dof 6
+outregfile /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/tmp.bbregister.16372/bbr.pass1.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 100
+PenaltySign  1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000100
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1566482287
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 1.00000   0.00000   0.00000   0.47658;
+ 0.00000   1.00000   0.00000   0.48414;
+ 0.00000   0.00000   1.00000   0.48343;
+ 0.00000   0.00000   0.00000   1.00000;
+
+MRISread(/lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/lh.white): could not open file
+Loading mov
+Projecting LH Surfs
+Loading lh.white surf
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/10surfs/l*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by10surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/10surfs/r*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by10surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/12surfs/l*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 11by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 12by12surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/12surfs/r*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 11by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 12by12surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/14surfs/l*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 11by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 12by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 13by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 14by14surf
+hemi = lh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+ls: cannot access /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//surfaces/equivSurfs/14surfs/r*: No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 1by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 2by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 3by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 4by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 5by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 6by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 7by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 8by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 9by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 10by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 11by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 12by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 13by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+cp: cannot stat ‘’: No such file or directory
+ltaReadFile(/lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta): can't open file
+srcvol = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/anat/MT.mgz
+srcreg = /lustre/archive/q10021/NSPN/BIDS/derivatives//equivSurfs/sub-28142/ses-1stFollowUp//xfms/sub-28142_mye2fs_bbr.lta
+srcregold = 0
+srcwarp unspecified
+surf = 14by14surf
+hemi = rh
+trgsubject = sub-28142
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+No such file or directory
+Setting mapmethod to nnf
+
+$Id: mri_surf2surf.c,v 1.103 2015/11/05 22:07:33 greve Exp $
+
+setenv SUBJECTS_DIR /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces
+cd /lustre/archive/q10021/NSPN/Code
+mri_surf2surf --srcsubject fsaverage --trgsubject sub-28142 --hemi lh --sval-annot /lustre/archive/q10021/NSPN/Code/Utils/templates/lh.HCP.fsaverage.aparc.annot --tval /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/label/lh.HCP.fsaverage.aparc.annot 
+
+sysname  Linux
+hostname wbic-csm-6
+machine  x86_64
+user     rb643
+srcsubject = fsaverage
+srcval     = (null)
+srctype    = 
+trgsubject = sub-28142
+trgval     = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/label/lh.HCP.fsaverage.aparc.annot
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/fsaverage/surf/lh.sphere.reg
+Loading source data
+Reading surface file /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/fsaverage/surf/lh.orig
+reading colortable from annotation file...
+colortable with 181 entries read (originally ./left.fsaverage164.label.gii)
+MRISread(/lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/lh.sphere.reg): could not open file
+Reading target surface reg /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/lh.sphere.reg
+No such file or directory
+mri_surf2surf: could not read surface /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/lh.sphere.reg
+No such file or directory
+Setting mapmethod to nnf
+
+$Id: mri_surf2surf.c,v 1.103 2015/11/05 22:07:33 greve Exp $
+
+setenv SUBJECTS_DIR /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces
+cd /lustre/archive/q10021/NSPN/Code
+mri_surf2surf --srcsubject fsaverage --trgsubject sub-28142 --hemi rh --sval-annot /lustre/archive/q10021/NSPN/Code/Utils/templates/rh.HCP.fsaverage.aparc.annot --tval /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/label/rh.HCP.fsaverage.aparc.annot 
+
+sysname  Linux
+hostname wbic-csm-6
+machine  x86_64
+user     rb643
+srcsubject = fsaverage
+srcval     = (null)
+srctype    = 
+trgsubject = sub-28142
+trgval     = /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/label/rh.HCP.fsaverage.aparc.annot
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/fsaverage/surf/rh.sphere.reg
+Loading source data
+Reading surface file /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/fsaverage/surf/rh.orig
+reading colortable from annotation file...
+colortable with 181 entries read (originally ./right.fsaverage164.label.gii)
+MRISread(/lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/rh.sphere.reg): could not open file
+Reading target surface reg /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/rh.sphere.reg
+No such file or directory
+mri_surf2surf: could not read surface /lustre/archive/q10021/NSPN/BIDS/derivatives//hmri/sub-28142/ses-1stFollowUp/surfaces/sub-28142/surf/rh.sphere.reg
+No such file or directory

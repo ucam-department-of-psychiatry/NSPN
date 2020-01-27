@@ -1,0 +1,79 @@
+{
+    "searchMethod": "fnmatch",
+    "defaceTpl": "pydeface --outfile {dstFile} {srcFile}",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "suffix": "T1w",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"}
+            }
+        },
+        {
+            "dataType": "anat",
+            "suffix": "echo-1_MT",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "EchoNumber": 1,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude1",
+            "criteria": {
+                "in": {"SeriesDescription": "*gre_field_mapping_1acq_rl*"},
+                "equal": {
+                    "ImageType": [
+                        "ORIGINAL",
+                        "PRIMARY",
+                        "M",
+                        "ND",
+                        "NORM"
+                    ],
+                    "EchoNumber": 1,
+                    "EchoTime": 0.01
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "magnitude2",
+            "criteria": {
+                "in": {"SeriesDescription": "*gre_field_mapping_1acq_rl*"},
+                "equal": {
+                    "ImageType": [
+                        "ORIGINAL",
+                        "PRIMARY",
+                        "M",
+                        "ND",
+                        "NORM"
+                    ],
+                    "EchoNumber": 2,
+                    "EchoTime": 0.01246
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "phasediff",
+            "criteria": {
+                "in": {"PulseSequenceDetails": "*field_mapping*"},
+                "equal": {
+                    "ImageType": [
+                        "ORIGINAL",
+                        "PRIMARY",
+                        "P",
+                        "ND"
+                    ]
+                }
+            },
+            "customHeader": {
+                "EchoTime1": 0.00492,
+                "EchoTime2": 0.00738
+            }
+        }
+    ]
+}

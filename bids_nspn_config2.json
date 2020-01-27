@@ -1,0 +1,498 @@
+{
+    "searchMethod": "fnmatch",
+    "defaceTpl": "pydeface --outfile {dstFile} {srcFile}",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-1_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-2_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-3_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-4_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-5_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-6_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]}
+            }
+        },
+
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-1_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-2_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-3_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-4_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-5_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "suffix": "acq-T1w_echo-6_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "t1_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]}
+            }
+        },
+
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-1_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-2_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-3_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-4_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-5_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-6_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-1_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-2_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-3_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-4_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-5_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "MTw",
+            "suffix": "acq-MTw_echo-6_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "mt_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-1_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-2_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-3_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-4_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-5_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-6_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-7_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0172,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-8_part-mag_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0197,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+                }
+            }
+        },
+
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-1_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0022,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-2_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0047,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-3_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0072,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-4_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0097,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-5_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0122,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-6_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0147,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-7_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0172,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "PDw",
+            "suffix": "acq-PDw_echo-8_part-phase_MPM",
+            "criteria": {
+                "in": {"SeriesDescription": "pd_nw_mtflash3d_v2d"},
+                "equal": {"EchoTime": 0.0197,
+                          "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            }
+        },
+
+        {
+            "dataType": "fmap",
+            "suffix": "part-mag1_B0map",
+            "criteria": {
+                "in": {"SeriesDescription": "gre_field_mapping_1acq_rl"},
+                "equal": {
+                    "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                    "EchoTime": 0.01
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "suffix": "part-mag2_B0map",
+            "criteria": {
+                "in": {"SeriesDescription": "gre_field_mapping_1acq_rl"},
+                "equal": {
+                    "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                    "EchoTime": 0.01246
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "suffix": "part-phase_B0map",
+            "criteria": {
+                "in": {"SeriesDescription": "gre_field_mapping_1acq_rl"},
+                "equal": {
+                    "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND"]
+                }
+            },
+            "customHeader": {
+                "EchoTime1": 0.01,
+                "EchoTime2": 0.01246
+            }
+        },
+        {
+            "dataType": "fmap",
+            "suffix": "echo-1_part-mag1_B1map",
+            "criteria": {
+                "in": {"SeriesDescription": "al_B1mapping_v2b"},
+                "equal": {
+                    "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                    "EchoTime": 0.03706
+                }
+            }
+        },
+        {
+            "dataType": "fmap",
+            "suffix": "echo-2_part-mag1_B1map",
+            "criteria": {
+                "in": {"SeriesDescription": "al_B1mapping_v2b"},
+                "equal": {
+                    "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                    "EchoTime": 0.01853
+                }
+            }
+        }
+    ]
+}

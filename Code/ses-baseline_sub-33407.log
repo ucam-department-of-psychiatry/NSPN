@@ -1,0 +1,264 @@
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = -inf
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.999758, ar1std = 0.0155656, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = 68.241504
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: divide by zero encountered in divide
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: invalid value encountered in multiply
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = -inf
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.99993, ar1std = 0.00835052, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = 127.185584
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = -inf
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.999758, ar1std = 0.0155656, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = 68.241504
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: divide by zero encountered in divide
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: invalid value encountered in multiply
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+creating surface 11
+creating surface 12
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = -inf
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.99993, ar1std = 0.00835052, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = 127.185584
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+creating surface 11
+creating surface 12
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = -inf
+sub-33407 lh white
+Number of vertices 153666
+Number of faces    307328
+Total area         104159.117188
+GroupSurface 0
+AvgVtxArea       0.677828
+AvgVtxDist       0.902328
+StdVtxDist       0.278558
+Found 144422 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.999758, ar1std = 0.0155656, ar1max = 1
+avg vertex dist 0.902328
+avg vertex dist 0.902328
+fwhm = 68.241504
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: divide by zero encountered in divide
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+/lustre/archive/q10021/NSPN/Code/Utils/surface_tools/equivolumetric_surfaces/generate_equivolumetric_surfaces.py:97: RuntimeWarning: invalid value encountered in multiply
+  return 1-(1 / (ap - aw) * (-aw + np.sqrt((1-alpha)*ap**2 + alpha*aw**2)))
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+creating surface 11
+creating surface 12
+creating surface 13
+creating surface 14
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 1, ar1std = 0, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = -inf
+sub-33407 rh white
+Number of vertices 152923
+Number of faces    305842
+Total area         103549.148438
+GroupSurface 0
+AvgVtxArea       0.677133
+AvgVtxDist       0.902082
+StdVtxDist       0.283239
+Found 143398 voxels in mask
+Not Polynomial detrending
+Computing spatial AR1 
+ar1mn = 0.99993, ar1std = 0.00835052, ar1max = 1
+avg vertex dist 0.902082
+avg vertex dist 0.902082
+fwhm = 127.185584
+creating surface 1
+creating surface 2
+creating surface 3
+creating surface 4
+creating surface 5
+creating surface 6
+creating surface 7
+creating surface 8
+creating surface 9
+creating surface 10
+creating surface 11
+creating surface 12
+creating surface 13
+creating surface 14

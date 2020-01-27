@@ -1,0 +1,358 @@
+2019/04/24 10:45 --- dcm2bids start ---
+2019/04/24 10:45 participant: 10744
+2019/04/24 10:45 session: baseline
+2019/04/24 10:45 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10744/baseline
+2019/04/24 10:45 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:45 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:45 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:47 parsing sidecars
+2019/04/24 10:47 moving acquisitions into BIDS output directory
+2019/04/24 10:47 updating standard study files
+2019/04/24 10:47 --- dcm2bids finished without errors ---
+2019/04/24 10:47 --- dcm2bids start ---
+2019/04/24 10:47 participant: 10744
+2019/04/24 10:47 session: 1stFollowUp
+2019/04/24 10:47 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10744/1stFollowUp
+2019/04/24 10:47 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:47 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:47 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:55 parsing sidecars
+2019/04/24 10:55 moving acquisitions into BIDS output directory
+2019/04/24 10:55 updating standard study files
+2019/04/24 10:55 --- dcm2bids finished without errors ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10702
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10702/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10356
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10356/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10736
+2019/04/24 10:57 participant: 10778
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10736/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10778/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10794
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10794/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10975
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10975/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 10900
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/10900/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11049
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11049/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11064
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11064/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11171
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11171/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11262
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 participant: 11239
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11262/baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11239/baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11312
+2019/04/24 10:57 participant: 11320
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11320/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11312/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11403
+2019/04/24 10:57 participant: 11338
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11403/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11338/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11460
+2019/04/24 10:57 participant: 11429
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11460/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11429/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11486
+2019/04/24 10:57 participant: 11551
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11486/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11551/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11635
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11635/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11858
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11858/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11718
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11718/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11874
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11874/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11882
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 participant: 12690
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11882/baseline
+2019/04/24 10:57 participant: 12211
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12690/baseline
+2019/04/24 10:57 participant: 12799
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12211/baseline
+2019/04/24 10:57 participant: 12773
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 participant: 12831
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12799/baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12773/baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12831/baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 participant: 11940
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 participant: 11965
+2019/04/24 10:57 participant: 12195
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 12385
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 participant: 11981
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 participant: 12005
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 12096
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 12013
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 participant: 11932
+2019/04/24 10:57 participant: 12203
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11940/baseline
+2019/04/24 10:57 --- dcm2bids start ---
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12195/baseline
+2019/04/24 10:57 participant: 12161
+2019/04/24 10:57 participant: 12260
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 participant: 12393
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11965/baseline
+2019/04/24 10:57 participant: 12401
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12385/baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 participant: 12534
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11981/baseline
+2019/04/24 10:57 participant: 12591
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12005/baseline
+2019/04/24 10:57 participant: 12310
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 participant: 12682
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12096/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12013/baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/11932/baseline
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12161/baseline
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12203/baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 session: baseline
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12260/baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12393/baseline
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12401/baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12534/baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12591/baseline
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12310/baseline
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 dicom_dir: /lustre/archive/q10021/NSPN/MPM/12682/baseline
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 config: /lustre/archive/q10021/NSPN/Code/bids_nspn_config2.json
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 outputdir: /lustre/archive/q10021/NSPN/BIDS
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
+2019/04/24 10:57 running dcm2niix DICOM to NIFTI conversion
